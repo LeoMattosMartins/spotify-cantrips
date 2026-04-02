@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+
+# Local secrets and auth cache
+.env
+.spotify-cache
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Node / Electron
+hud/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
